@@ -1,0 +1,11 @@
+hhid,state,zone,household_size,number_of_rooms,daily_supply_hours,estimated_service_band,light_bulb_count,fan_count,television_count,fridge_count,ac_count,estimated_monthly_kwh,consumption_category
+89b1b751-e375-463f-9ca4-e519242cc221,Federal Capital Territory,North Central,6,4,24.0,Band A,7,6,2,1,1,570.6,Very High Consumption
+f4c2cdfa-f97e-4941-9780-e1d0304d855d,Kano,North West,12,7,24.0,Band A,18,8,3,1,0,536.7,Very High Consumption
+859c5d97-0e56-4665-a78f-0b9e29c2a990,Kogi,North Central,15,12,18.0,Band B,16,12,12,1,0,512.7750000000001,Very High Consumption
+0ae60c53-3ce1-44f9-9a59-051b1c40c988,Rivers,South South,8,5,24.0,Band A,10,4,2,1,1,468.75,Very High Consumption
+8e91e265-8fd0-420a-a098-700b4ea050d4,Rivers,South South,6,5,24.0,Band A,10,4,1,1,1,462.6,Very High Consumption
+1cc9ff18-f753-4843-85e7-5f941c2e674d,Niger,North Central,22,8,21.0,Band A,22,8,3,1,0,442.575,Very High Consumption
+df530cc1-3f44-4fab-b2c2-7f4572699cdf,Rivers,South South,4,9,23.0,Band A,6,3,2,1,1,433.55,Very High Consumption
+0c6565bf-79d2-4314-b1ba-a465cf071924,Kogi,North Central,35,15,12.0,Band C,30,16,10,1,0,432.3,Very High Consumption
+02a645ae-ca9f-4c89-9ac1-1d5151f5f23c,Niger,North Central,7,6,21.0,Band A,10,5,3,1,1,421.96875,Very High Consumption
+1dda71a9-0834-42bd-bfb0-bec9f053c879,Rivers,South South,6,8,24.0,Band A,13,6,1,1,1,412.9500000000001,Very High Consumption
