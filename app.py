@@ -774,7 +774,7 @@ if run_button:
         """
         <div class="section-card">
             <h3>💡 Top Energy-Saving Recommendations</h3>
-            <p class="small-note">Showing only the top 3 recommendations to keep the dashboard clean.</p>
+            <p class="small-note">Top 3 Recommendations.</p>
         </div>
         """,
         unsafe_allow_html=True
