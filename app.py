@@ -211,6 +211,43 @@ def create_user_profile(
         "average_ac_usage_hours": average_ac_usage_hours
     }
 
+    user_profile["bulb_energy_proxy"] = (
+        light_bulb_count * min(daily_supply_hours, 6)
+    )
+
+    user_profile["fan_energy_proxy"] = (
+        fan_count * min(daily_supply_hours, 8)
+    )
+
+    user_profile["tv_energy_proxy"] = (
+        television_count * min(daily_supply_hours, 4)
+    )
+
+    user_profile["fridge_energy_proxy"] = (
+        fridge_count * 12
+    )
+
+    user_profile["ac_energy_proxy"] = (
+        ac_count * average_ac_usage_hours
+    )
+
+    user_profile["total_selected_appliances"] = (
+        light_bulb_count +
+        fan_count +
+        television_count +
+        fridge_count +
+        ac_count
+    )
+
+    user_profile["cooling_appliance_count"] = (
+        fan_count +
+        ac_count
+    )
+
+    user_profile["room_person_ratio"] = (
+        number_of_rooms / household_size if household_size > 0 else 0
+    )
+
     return user_profile
 
 

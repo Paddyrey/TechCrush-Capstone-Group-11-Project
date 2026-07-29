@@ -1,3 +1,4 @@
 Model,Best Number of Clusters,Best Silhouette Score
-K-Means Clustering,2,0.5820265265231288
-Hierarchical Clustering,2,0.5640552825236944
+K-Means Clustering,2,0.5691528604401215
+Hierarchical Clustering,2,0.5515835668011924
+Gaussian Mixture Model,2,0.5591444304677019
