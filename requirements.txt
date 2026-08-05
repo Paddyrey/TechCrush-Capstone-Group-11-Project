@@ -4,3 +4,5 @@ numpy
 scikit-learn
 joblib
 plotly
+starlette==0.45.3
+
